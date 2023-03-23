@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, blue, red, goldenrod);
+  }
+
+  .click{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .key {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(180, 220, 255);
+    border-radius: 50px;
+    padding: 20px;
+    min-width: 150px;
+  }
+  
+  .key small {
+    position: absolute;
+    top: -24px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .keyboard-key{
+    color: darkblue;
+  }
+
+  .keyboard-key__code{
+    color: darkgreen;
+  }
+
+  .keyboard-code{
+    color: goldenrod;
+  }
